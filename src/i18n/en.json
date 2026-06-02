@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Dor Ariel — Full-Stack Developer & Implementation Engineer",
+    "description": "Full-Stack Developer and Technical Implementation Engineer building scalable apps, cloud solutions, and automation platforms."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "stack": "Stack",
+    "work": "Work",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "eyebrow": "Available for new opportunities",
+    "greeting": "Hi, I'm",
+    "name": "Dor Ariel",
+    "titlePrefix": "I build",
+    "rotating": [
+      "scalable web apps",
+      "cloud platforms",
+      "automation pipelines",
+      "developer tools",
+      "reliable systems"
+    ],
+    "subtitle": "Full-Stack Developer & Technical Implementation Engineer bridging cloud infrastructure and user-facing products.",
+    "ctaPrimary": "View my work",
+    "ctaSecondary": "Get in touch",
+    "scroll": "Scroll to explore",
+    "location": "Rosh HaAyin, Israel"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "From infrastructure to interface — end to end.",
+    "paragraph": "I'm a Full-Stack Developer and Technical Implementation Engineer with a strong background in DevOps and cloud infrastructure. I enjoy building scalable applications, automating complex workflows, and turning business requirements into reliable technical solutions. My unique strength is understanding both software development and the infrastructure that powers it.",
+    "services": {
+      "fullstack": {
+        "title": "Full-Stack Development",
+        "desc": "React + TypeScript on the front, Python and Node on the back. APIs, dashboards, internal tools."
+      },
+      "cloud": {
+        "title": "Cloud & Platform",
+        "desc": "AWS, Azure and GCP. Designing platforms that scale, with cost and reliability in mind."
+      },
+      "automation": {
+        "title": "Automation & DevOps",
+        "desc": "CI/CD, IaC with Terraform, Kubernetes, and pipelines that ship safely and fast."
+      },
+      "implementation": {
+        "title": "Technical Implementation",
+        "desc": "Translating business requirements into working systems — and the docs that keep them alive."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Career path",
+    "title": "Experience",
+    "subtitle": "Years of bridging infrastructure and product. A short timeline of recent chapters.",
+    "items": [
+      {
+        "role": "Full-Stack Developer & Implementation Engineer",
+        "company": "Self / Freelance",
+        "date": "2024 — Present",
+        "points": [
+          "Designing and shipping end-to-end web applications with React, TypeScript, Node.js and Python.",
+          "Building automation tools and integrations on top of Azure Functions and serverless infrastructure.",
+          "Owning delivery from requirements gathering through deployment, monitoring and post-launch iteration."
+        ]
+      },
+      {
+        "role": "Platform / DevOps Engineer",
+        "company": "Enterprise Cloud Teams",
+        "date": "2020 — 2024",
+        "points": [
+          "Designed scalable Kubernetes platforms across AWS, Azure and GCP for production workloads.",
+          "Authored Terraform modules and CI/CD pipelines (Azure DevOps, Bitbucket) used by multiple teams.",
+          "Reduced deploy times and incident rates through standardized observability and IaC patterns."
+        ]
+      },
+      {
+        "role": "Linux & Systems Engineer",
+        "company": "Earlier roles",
+        "date": "Before 2020",
+        "points": [
+          "Hands-on Linux administration, scripting and automation across hybrid environments.",
+          "Built the foundation that later evolved into platform engineering and full-stack development."
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "Tech stack",
+    "title": "Tools I use to ship.",
+    "subtitle": "A pragmatic toolbox refined over years across product and platform work.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "data": "Databases",
+      "other": "Other"
+    }
+  },
+  "works": {
+    "eyebrow": "Selected work",
+    "title": "Projects",
+    "subtitle": "A selection of recent and ongoing work — from internal platforms to side projects.",
+    "viewCode": "Code",
+    "viewLive": "Live",
+    "items": [
+      {
+        "name": "Cloud Ops Console",
+        "description": "Internal full-stack platform that unifies cloud cost, deployment status and on-call signals across AWS, Azure and GCP — replacing five separate dashboards.",
+        "tags": ["React", "TypeScript", "Python", "Terraform", "OpenSearch"]
+      },
+      {
+        "name": "Pipeline Automation Suite",
+        "description": "Reusable Azure DevOps and Bitbucket pipelines with Terraform-driven infrastructure, secrets management and automated rollback — adopted across multiple product teams.",
+        "tags": ["Azure DevOps", "Bitbucket", "Terraform", "Kubernetes", "Bash"]
+      },
+      {
+        "name": "Implementation Portal",
+        "description": "Customer-facing onboarding portal that turns implementation checklists into a guided product experience, with role-based access and audit trails.",
+        "tags": ["Next.js", "Node.js", "PostgreSQL", "Auth", "REST"]
+      },
+      {
+        "name": "Serverless Data Sync",
+        "description": "Event-driven sync layer built on Azure Functions and queues, moving and reconciling records between SaaS systems with retries, dead-letter handling and observability.",
+        "tags": ["Azure Functions", "Python", "Event-driven", "OpenSearch"]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something solid.",
+    "subtitle": "Have a project, role or idea in mind? The fastest way to reach me is the form below or directly via email.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "How should I address you?",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me a bit about the project, role or question…",
+      "submit": "Send via email",
+      "directEmail": "Or email me directly",
+      "directEmailLabel": "Email address",
+      "calendly": "Schedule a call"
+    }
+  },
+  "footer": {
+    "tagline": "Designed and built by Dor Ariel.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "ui": {
+    "switchLanguage": "עברית",
+    "menu": "Menu",
+    "close": "Close"
+  }
+}

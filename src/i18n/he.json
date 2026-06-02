@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "דור אריאל — מפתח Full-Stack ומהנדס יישום",
+    "description": "מפתח Full-Stack ומהנדס יישום טכני, בונה אפליקציות סקיילביליות, פתרונות ענן ופלטפורמות אוטומציה."
+  },
+  "nav": {
+    "about": "אודות",
+    "experience": "ניסיון",
+    "stack": "טכנולוגיות",
+    "work": "פרויקטים",
+    "contact": "צור קשר",
+    "resume": "קורות חיים"
+  },
+  "hero": {
+    "eyebrow": "פנוי להזדמנויות חדשות",
+    "greeting": "היי, אני",
+    "name": "דור אריאל",
+    "titlePrefix": "אני בונה",
+    "rotating": [
+      "אפליקציות וב סקיילביליות",
+      "פלטפורמות ענן",
+      "מערכות אוטומציה",
+      "כלים למפתחים",
+      "מערכות אמינות"
+    ],
+    "subtitle": "מפתח Full-Stack ומהנדס יישום טכני, מחבר בין תשתיות ענן למוצרים שמשתמשים אוהבים.",
+    "ctaPrimary": "לפרויקטים שלי",
+    "ctaSecondary": "יצירת קשר",
+    "scroll": "גלול לגלות עוד",
+    "location": "ראש העין, ישראל"
+  },
+  "about": {
+    "eyebrow": "קצת עליי",
+    "title": "מהתשתית עד הממשק — כל הדרך.",
+    "paragraph": "אני מפתח Full-Stack ומהנדס יישום טכני עם רקע חזק ב-DevOps ובתשתיות ענן. אני אוהב לבנות אפליקציות סקיילביליות, להפוך תהליכים מורכבים לאוטומטיים ולתרגם דרישות עסקיות לפתרונות טכניים אמינים. החוזק הייחודי שלי הוא הבנה הן של פיתוח תוכנה והן של התשתית שמריצה אותה.",
+    "services": {
+      "fullstack": {
+        "title": "פיתוח Full-Stack",
+        "desc": "React ו-TypeScript בצד הלקוח, Python ו-Node בצד השרת. APIs, דשבורדים וכלים פנימיים."
+      },
+      "cloud": {
+        "title": "ענן ופלטפורמה",
+        "desc": "AWS, Azure ו-GCP. תכנון פלטפורמות שמתרחבות, עם ראייה של עלות ואמינות."
+      },
+      "automation": {
+        "title": "אוטומציה ו-DevOps",
+        "desc": "CI/CD, Terraform, Kubernetes ו-pipelines שמרגישים בטוחים ומגיעים מהר לפרודקשן."
+      },
+      "implementation": {
+        "title": "יישום טכני",
+        "desc": "תרגום דרישות עסקיות למערכות עובדות — והתיעוד שמשאיר אותן בחיים."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "מסלול מקצועי",
+    "title": "ניסיון",
+    "subtitle": "שנים של חיבור בין תשתית למוצר. ציר זמן קצר של הפרקים האחרונים.",
+    "items": [
+      {
+        "role": "מפתח Full-Stack ומהנדס יישום",
+        "company": "עצמאי / פרילנס",
+        "date": "2024 — היום",
+        "points": [
+          "תכנון ובניית אפליקציות וב מקצה לקצה ב-React, TypeScript, Node.js ו-Python.",
+          "כלי אוטומציה ואינטגרציות מעל Azure Functions ותשתית serverless.",
+          "אחריות מלאה מאיסוף דרישות ועד פריסה, ניטור ושיפור פוסט-לאנץ׳."
+        ]
+      },
+      {
+        "role": "מהנדס פלטפורמה / DevOps",
+        "company": "צוותי ענן ארגוניים",
+        "date": "2020 — 2024",
+        "points": [
+          "תכנון פלטפורמות Kubernetes סקיילביליות על AWS, Azure ו-GCP בפרודקשן.",
+          "כתיבת מודולי Terraform ו-CI/CD (Azure DevOps, Bitbucket) שאומצו ע״י מספר צוותים.",
+          "צמצום זמני פריסה ותקלות באמצעות סטנדרטיזציה של ניטור ו-IaC."
+        ]
+      },
+      {
+        "role": "מהנדס לינוקס ומערכות",
+        "company": "תפקידים מוקדמים",
+        "date": "לפני 2020",
+        "points": [
+          "ניהול לינוקס היברידי, סקריפטים ואוטומציה.",
+          "הבסיס שצמח לפלטפורמה ולפיתוח Full-Stack."
+        ]
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "ערמת טכנולוגיות",
+    "title": "הכלים שאני משתמש בהם.",
+    "subtitle": "ארגז כלים פרגמטי שלוטש לאורך שנים בעבודה על מוצר ופלטפורמה.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "data": "מסדי נתונים",
+      "other": "כללי"
+    }
+  },
+  "works": {
+    "eyebrow": "פרויקטים נבחרים",
+    "title": "פרויקטים",
+    "subtitle": "מבחר פרויקטים אחרונים ופעילים — מפלטפורמות פנימיות ועד פרויקטי צד.",
+    "viewCode": "קוד",
+    "viewLive": "Live",
+    "items": [
+      {
+        "name": "Cloud Ops Console",
+        "description": "פלטפורמת Full-Stack פנימית שמאחדת עלויות ענן, סטטוס פריסה והתראות on-call על AWS, Azure ו-GCP — מחליפה חמישה דשבורדים נפרדים.",
+        "tags": ["React", "TypeScript", "Python", "Terraform", "OpenSearch"]
+      },
+      {
+        "name": "Pipeline Automation Suite",
+        "description": "מערכת pipelines של Azure DevOps ו-Bitbucket עם Terraform, ניהול סודות ו-rollback אוטומטי — אומצה ע״י מספר צוותי מוצר.",
+        "tags": ["Azure DevOps", "Bitbucket", "Terraform", "Kubernetes", "Bash"]
+      },
+      {
+        "name": "Implementation Portal",
+        "description": "פורטל onboarding ללקוחות שהופך צ'קליסטים של implementation לחוויית מוצר מודרכת, עם הרשאות ויומני ביקורת.",
+        "tags": ["Next.js", "Node.js", "PostgreSQL", "Auth", "REST"]
+      },
+      {
+        "name": "Serverless Data Sync",
+        "description": "שכבת סנכרון מבוססת אירועים על Azure Functions ותורים, שמעבירה ומיישבת רשומות בין מערכות SaaS עם ריטריי, dead-letter ו-observability.",
+        "tags": ["Azure Functions", "Python", "Event-driven", "OpenSearch"]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "צור קשר",
+    "title": "בואו נבנה משהו יציב.",
+    "subtitle": "יש לכם פרויקט, תפקיד או רעיון? הדרך המהירה ביותר ליצור איתי קשר היא הטופס מטה או ישירות באימייל.",
+    "form": {
+      "name": "שם",
+      "namePlaceholder": "איך לקרוא לך?",
+      "email": "אימייל",
+      "emailPlaceholder": "name@company.com",
+      "message": "הודעה",
+      "messagePlaceholder": "ספרו לי קצת על הפרויקט, התפקיד או השאלה…",
+      "submit": "שליחה במייל",
+      "directEmail": "או שלחו לי ישירות",
+      "directEmailLabel": "כתובת המייל שלי",
+      "calendly": "תיאום שיחה"
+    }
+  },
+  "footer": {
+    "tagline": "עוצב ונבנה ע״י דור אריאל.",
+    "rights": "כל הזכויות שמורות.",
+    "backToTop": "חזרה למעלה"
+  },
+  "ui": {
+    "switchLanguage": "English",
+    "menu": "תפריט",
+    "close": "סגירה"
+  }
+}
