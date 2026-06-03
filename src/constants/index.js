@@ -93,13 +93,13 @@ export const projectsMeta = [
   {
     id: 'pipeline-automation-suite',
     accent: 'magenta',
-    source_code_link: 'https://github.com/dorariel1987',
+    source_code_link: 'https://github.com/dorariel1987/pipeline-automation-suite',
     live_link: '',
   },
   {
     id: 'implementation-portal',
     accent: 'violet',
-    source_code_link: 'https://github.com/dorariel1987',
+    source_code_link: 'https://github.com/dorariel1987/implementation-portal',
     live_link: '',
   },
   {
