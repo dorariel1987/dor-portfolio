@@ -87,7 +87,7 @@ export const projectsMeta = [
   {
     id: 'cloud-ops-console',
     accent: 'cyan',
-    source_code_link: 'https://github.com/dorariel1987',
+    source_code_link: 'https://github.com/dorariel1987/cloud-ops-console',
     live_link: '',
   },
   {
