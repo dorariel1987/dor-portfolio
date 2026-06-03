@@ -105,7 +105,7 @@ export const projectsMeta = [
   {
     id: 'serverless-data-sync',
     accent: 'lime',
-    source_code_link: 'https://github.com/dorariel1987',
+    source_code_link: 'https://github.com/dorariel1987/serverless-data-sync',
     live_link: '',
   },
 ];
