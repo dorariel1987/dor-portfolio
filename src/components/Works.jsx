@@ -30,21 +30,38 @@ const ProjectVisual = ({ accent, index }) => {
 
 const ProjectCard = ({ meta, content, index, t }) => {
   const a = accentMap[meta.accent] || accentMap.cyan;
+  const primaryLink = meta.live_link || meta.source_code_link;
+
   return (
     <motion.article
       initial={{ y: 30, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, delay: index * 0.08, ease: [0.22, 1, 0.36, 1] }}
-      className={`group relative panel p-5 transition-all duration-500 border-bg-border ${a.ring} ${a.glow} hover:-translate-y-1.5`}
+      className={`group relative panel p-5 transition-all duration-500 border-bg-border ${a.ring} ${a.glow} hover:-translate-y-1.5 ${
+        primaryLink ? 'cursor-pointer' : ''
+      }`}
     >
+      {/* Stretched link: makes the whole card clickable */}
+      {primaryLink && (
+        <a
+          href={primaryLink}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="absolute inset-0 z-10 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-neon-cyan/60"
+          aria-label={`${content.name} — ${
+            meta.live_link ? t('works.viewLive') : t('works.viewCode')
+          }`}
+        />
+      )}
+
       <ProjectVisual accent={meta.accent} index={index} />
 
       <div className="mt-5 flex items-start justify-between gap-3">
-        <h3 className="font-display font-semibold text-lg sm:text-xl text-ink leading-tight">
+        <h3 className="font-display font-semibold text-lg sm:text-xl text-ink leading-tight group-hover:text-neon-cyan transition-colors">
           {content.name}
         </h3>
-        <div className="flex items-center gap-1.5 flex-shrink-0">
+        <div className="relative z-20 flex items-center gap-1.5 flex-shrink-0">
           {meta.source_code_link && (
             <a
               href={meta.source_code_link}
@@ -81,7 +98,7 @@ const ProjectCard = ({ meta, content, index, t }) => {
           ))}
       </div>
 
-      <div className={`absolute top-4 ${false ? 'left' : 'right'}-4 ${a.text} opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 -translate-y-1`}>
+      <div className={`absolute top-4 end-4 ${a.text} opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 -translate-y-1`}>
         <ArrowUpRight className="w-5 h-5" />
       </div>
     </motion.article>
